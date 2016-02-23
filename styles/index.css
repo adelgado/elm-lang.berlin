@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic|Source+Code+Pro);
+
+html,
+body {
+ font-family: 'Source Sans Pro', 'Trebuchet MS', 'Lucida Grande', 'Bitstream Vera Sans', 'Helvetica Neue', sans-serif;
+ text-rendering: optimizeLegibility;
+}
+
+header {
+	background-color: #60B5CC;
+	color: white;
+	text-align: center;
+	min-height: 40vh;
+}
+
+header .logo {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	width: 100px;
+	height: 100px;
+}
+
+header h1,
+header h2 {
+	font-weight: normal;
+	margin: 0;
+}
+
+header h1 {
+	font-size: 100px;
+	padding: 56px 0px;
+}
+
+header h2 {
+	font-size: 24px;
+	padding: 28px 0px;
+}
+
+main {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 60vh
+}
+
+main .description {
+	margin: 0 auto;
+	padding: 60px 0;
+	width: 40vw;
+}
+
+main .boxes {
+	margin: 20px auto;
+}
+
+main .boxes {
+	display: flex;
+	justify-content: space-around;
+}
+
+main h3 {
+	margin: 0;
+	font-size: 2em;
+	font-weight: normal;
+}
+
+main section {
+	box-sizing: border-box;
+	padding: 1rem;
+}
+
+footer {
+	font-size: 16px;
+	color: darkgray;
+	text-align: center;
+	border-top: 1px solid #eeeeee;
+	padding: 2em 0;
+	color: #bbbbbb;
+}
