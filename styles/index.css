@@ -51,12 +51,9 @@ main .description {
 }
 
 main .boxes {
-	margin: 20px auto;
-}
-
-main .boxes {
 	display: flex;
 	justify-content: space-around;
+	margin: 20px auto;
 }
 
 main h3 {
@@ -72,7 +69,6 @@ main section {
 
 footer {
 	font-size: 16px;
-	color: darkgray;
 	text-align: center;
 	border-top: 1px solid #eeeeee;
 	padding: 2em 0;
