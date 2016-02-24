@@ -1,0 +1,15 @@
+var fs = require('fs');
+var elm = Elm.worker(Elm.Renderer);
+fs.writeFile('output/index.html', elm.ports['index']);
+var fs = require('fs');
+var elm = Elm.worker(Elm.Renderer);
+fs.writeFile('output/index.html', elm.ports['index']);
+var fs = require('fs');
+var elm = Elm.worker(Elm.Renderer);
+fs.writeFile('output/index.html', elm.ports['index']);
+var fs = require('fs');
+var elm = Elm.worker(Elm.Renderer);
+fs.writeFile('output/index.html', elm.ports['index']);
+var fs = require('fs');
+var elm = Elm.worker(Elm.Renderer);
+fs.writeFile('output/index.html', elm.ports['index']);
